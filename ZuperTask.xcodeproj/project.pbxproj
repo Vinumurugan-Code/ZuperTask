@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1685D4E927E2E84C00DDC127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D4E827E2E84C00DDC127 /* AppDelegate.swift */; };
+		1685D4EB27E2E84C00DDC127 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D4EA27E2E84C00DDC127 /* SceneDelegate.swift */; };
+		1685D4F027E2E84C00DDC127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1685D4EE27E2E84C00DDC127 /* Main.storyboard */; };
+		1685D4F327E2E84C00DDC127 /* ZuperTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1685D4F127E2E84C00DDC127 /* ZuperTask.xcdatamodeld */; };
+		1685D4F527E2E85600DDC127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1685D4F427E2E85600DDC127 /* Assets.xcassets */; };
+		1685D4F827E2E85600DDC127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1685D4F627E2E85600DDC127 /* LaunchScreen.storyboard */; };
+		1685D50327E2E85700DDC127 /* ZuperTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D50227E2E85700DDC127 /* ZuperTaskTests.swift */; };
+		1685D50E27E2E85700DDC127 /* ZuperTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D50D27E2E85700DDC127 /* ZuperTaskUITests.swift */; };
+		1685D53427E3A49B00DDC127 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D53327E3A49B00DDC127 /* APIService.swift */; };
+		1685D55527E435BA00DDC127 /* TodoTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D55327E435B900DDC127 /* TodoTableVCell.swift */; };
+		16DE9B9727E4FFFD00FB54F2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9B9627E4FFFD00FB54F2 /* Extension.swift */; };
+		16DE9BC627E5CE4300FB54F2 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9BBD27E5CE4300FB54F2 /* TodoModel.swift */; };
+		16DE9BC727E5CE4300FB54F2 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9BBF27E5CE4300FB54F2 /* TodoTableViewController.swift */; };
+		16DE9BC827E5CE4300FB54F2 /* TagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9BC027E5CE4300FB54F2 /* TagTableViewController.swift */; };
+		16DE9BC927E5CE4300FB54F2 /* CreateVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9BC327E5CE4300FB54F2 /* CreateVModel.swift */; };
+		16DE9BCA27E5CE4300FB54F2 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9BC527E5CE4300FB54F2 /* CreateViewController.swift */; };
+		16DE9BD627E5F2F400FB54F2 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9BD527E5F2F400FB54F2 /* ListViewModel.swift */; };
+		16DE9BE627E5FF2400FB54F2 /* ListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9BE527E5FF2400FB54F2 /* ListTableViewDataSource.swift */; };
+		16DE9BFF27E707F700FB54F2 /* ModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9BFE27E707F700FB54F2 /* ModelTest.swift */; };
+		16DE9C0427E7093600FB54F2 /* ViewDataSourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9C0327E7093600FB54F2 /* ViewDataSourceTest.swift */; };
+		16DE9C0927E709F500FB54F2 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE9C0827E709F500FB54F2 /* DynamicValue.swift */; };
+		83BECB7327E646C20083017A /* TodoTagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BECB7227E646C20083017A /* TodoTagTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1685D4FF27E2E85700DDC127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1685D4DD27E2E84C00DDC127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1685D4E427E2E84C00DDC127;
+			remoteInfo = ZuperTask;
+		};
+		1685D50A27E2E85700DDC127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1685D4DD27E2E84C00DDC127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1685D4E427E2E84C00DDC127;
+			remoteInfo = ZuperTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1685D4E527E2E84C00DDC127 /* ZuperTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuperTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1685D4E827E2E84C00DDC127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1685D4EA27E2E84C00DDC127 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1685D4EF27E2E84C00DDC127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1685D4F227E2E84C00DDC127 /* ZuperTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZuperTask.xcdatamodel; sourceTree = "<group>"; };
+		1685D4F427E2E85600DDC127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1685D4F727E2E85600DDC127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1685D4F927E2E85600DDC127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1685D4FE27E2E85700DDC127 /* ZuperTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuperTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1685D50227E2E85700DDC127 /* ZuperTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuperTaskTests.swift; sourceTree = "<group>"; };
+		1685D50427E2E85700DDC127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1685D50927E2E85700DDC127 /* ZuperTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuperTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1685D50D27E2E85700DDC127 /* ZuperTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuperTaskUITests.swift; sourceTree = "<group>"; };
+		1685D50F27E2E85700DDC127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1685D53327E3A49B00DDC127 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1685D55327E435B900DDC127 /* TodoTableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableVCell.swift; sourceTree = "<group>"; };
+		16DE9B9627E4FFFD00FB54F2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		16DE9BBD27E5CE4300FB54F2 /* TodoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		16DE9BBF27E5CE4300FB54F2 /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		16DE9BC027E5CE4300FB54F2 /* TagTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagTableViewController.swift; sourceTree = "<group>"; };
+		16DE9BC327E5CE4300FB54F2 /* CreateVModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateVModel.swift; sourceTree = "<group>"; };
+		16DE9BC527E5CE4300FB54F2 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		16DE9BD527E5F2F400FB54F2 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		16DE9BE527E5FF2400FB54F2 /* ListTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewDataSource.swift; sourceTree = "<group>"; };
+		16DE9BFE27E707F700FB54F2 /* ModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTest.swift; sourceTree = "<group>"; };
+		16DE9C0327E7093600FB54F2 /* ViewDataSourceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDataSourceTest.swift; sourceTree = "<group>"; };
+		16DE9C0827E709F500FB54F2 /* DynamicValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		83BECB7227E646C20083017A /* TodoTagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTagTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1685D4E227E2E84C00DDC127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1685D4FB27E2E85700DDC127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1685D50627E2E85700DDC127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1685D4DC27E2E84C00DDC127 = {
+			isa = PBXGroup;
+			children = (
+				1685D4E727E2E84C00DDC127 /* ZuperTask */,
+				1685D50127E2E85700DDC127 /* ZuperTaskTests */,
+				1685D50C27E2E85700DDC127 /* ZuperTaskUITests */,
+				1685D4E627E2E84C00DDC127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1685D4E627E2E84C00DDC127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1685D4E527E2E84C00DDC127 /* ZuperTask.app */,
+				1685D4FE27E2E85700DDC127 /* ZuperTaskTests.xctest */,
+				1685D50927E2E85700DDC127 /* ZuperTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1685D4E727E2E84C00DDC127 /* ZuperTask */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9BC127E5CE4300FB54F2 /* CreateTodoViewController */,
+				16DE9BBB27E5CE4300FB54F2 /* ListTodoViewController */,
+				1685D56327E43AAB00DDC127 /* Extension */,
+				1685D55227E4346100DDC127 /* TableVCell */,
+				1685D52227E2E9AA00DDC127 /* Common */,
+				1685D51F27E2E96900DDC127 /* APIService */,
+				1685D4F427E2E85600DDC127 /* Assets.xcassets */,
+				1685D4F627E2E85600DDC127 /* LaunchScreen.storyboard */,
+				1685D4F927E2E85600DDC127 /* Info.plist */,
+				1685D4F127E2E84C00DDC127 /* ZuperTask.xcdatamodeld */,
+			);
+			path = ZuperTask;
+			sourceTree = "<group>";
+		};
+		1685D50127E2E85700DDC127 /* ZuperTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				1685D50227E2E85700DDC127 /* ZuperTaskTests.swift */,
+				1685D50427E2E85700DDC127 /* Info.plist */,
+				16DE9BFE27E707F700FB54F2 /* ModelTest.swift */,
+				16DE9C0327E7093600FB54F2 /* ViewDataSourceTest.swift */,
+			);
+			path = ZuperTaskTests;
+			sourceTree = "<group>";
+		};
+		1685D50C27E2E85700DDC127 /* ZuperTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1685D50D27E2E85700DDC127 /* ZuperTaskUITests.swift */,
+				1685D50F27E2E85700DDC127 /* Info.plist */,
+			);
+			path = ZuperTaskUITests;
+			sourceTree = "<group>";
+		};
+		1685D51F27E2E96900DDC127 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				1685D53327E3A49B00DDC127 /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		1685D52227E2E9AA00DDC127 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1685D4EA27E2E84C00DDC127 /* SceneDelegate.swift */,
+				1685D4E827E2E84C00DDC127 /* AppDelegate.swift */,
+				1685D4EE27E2E84C00DDC127 /* Main.storyboard */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1685D55227E4346100DDC127 /* TableVCell */ = {
+			isa = PBXGroup;
+			children = (
+				1685D55327E435B900DDC127 /* TodoTableVCell.swift */,
+				83BECB7227E646C20083017A /* TodoTagTableViewCell.swift */,
+			);
+			path = TableVCell;
+			sourceTree = "<group>";
+		};
+		1685D56327E43AAB00DDC127 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9B9627E4FFFD00FB54F2 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		16DE9BBB27E5CE4300FB54F2 /* ListTodoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9BD427E5F2DB00FB54F2 /* ViewModel */,
+				16DE9BBC27E5CE4300FB54F2 /* Model */,
+				16DE9BBE27E5CE4300FB54F2 /* View */,
+			);
+			path = ListTodoViewController;
+			sourceTree = "<group>";
+		};
+		16DE9BBC27E5CE4300FB54F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9C0827E709F500FB54F2 /* DynamicValue.swift */,
+				16DE9BBD27E5CE4300FB54F2 /* TodoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16DE9BBE27E5CE4300FB54F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9BBF27E5CE4300FB54F2 /* TodoTableViewController.swift */,
+				16DE9BC027E5CE4300FB54F2 /* TagTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16DE9BC127E5CE4300FB54F2 /* CreateTodoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9BC227E5CE4300FB54F2 /* ViewModel */,
+				16DE9BC427E5CE4300FB54F2 /* View */,
+			);
+			path = CreateTodoViewController;
+			sourceTree = "<group>";
+		};
+		16DE9BC227E5CE4300FB54F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9BC327E5CE4300FB54F2 /* CreateVModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		16DE9BC427E5CE4300FB54F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9BC527E5CE4300FB54F2 /* CreateViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16DE9BD427E5F2DB00FB54F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16DE9BE527E5FF2400FB54F2 /* ListTableViewDataSource.swift */,
+				16DE9BD527E5F2F400FB54F2 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1685D4E427E2E84C00DDC127 /* ZuperTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1685D51227E2E85700DDC127 /* Build configuration list for PBXNativeTarget "ZuperTask" */;
+			buildPhases = (
+				1685D4E127E2E84C00DDC127 /* Sources */,
+				1685D4E227E2E84C00DDC127 /* Frameworks */,
+				1685D4E327E2E84C00DDC127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZuperTask;
+			productName = ZuperTask;
+			productReference = 1685D4E527E2E84C00DDC127 /* ZuperTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1685D4FD27E2E85700DDC127 /* ZuperTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1685D51527E2E85700DDC127 /* Build configuration list for PBXNativeTarget "ZuperTaskTests" */;
+			buildPhases = (
+				1685D4FA27E2E85700DDC127 /* Sources */,
+				1685D4FB27E2E85700DDC127 /* Frameworks */,
+				1685D4FC27E2E85700DDC127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1685D50027E2E85700DDC127 /* PBXTargetDependency */,
+			);
+			name = ZuperTaskTests;
+			productName = ZuperTaskTests;
+			productReference = 1685D4FE27E2E85700DDC127 /* ZuperTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1685D50827E2E85700DDC127 /* ZuperTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1685D51827E2E85700DDC127 /* Build configuration list for PBXNativeTarget "ZuperTaskUITests" */;
+			buildPhases = (
+				1685D50527E2E85700DDC127 /* Sources */,
+				1685D50627E2E85700DDC127 /* Frameworks */,
+				1685D50727E2E85700DDC127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1685D50B27E2E85700DDC127 /* PBXTargetDependency */,
+			);
+			name = ZuperTaskUITests;
+			productName = ZuperTaskUITests;
+			productReference = 1685D50927E2E85700DDC127 /* ZuperTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1685D4DD27E2E84C00DDC127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1685D4E427E2E84C00DDC127 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1685D4FD27E2E85700DDC127 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1685D4E427E2E84C00DDC127;
+					};
+					1685D50827E2E85700DDC127 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1685D4E427E2E84C00DDC127;
+					};
+				};
+			};
+			buildConfigurationList = 1685D4E027E2E84C00DDC127 /* Build configuration list for PBXProject "ZuperTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1685D4DC27E2E84C00DDC127;
+			productRefGroup = 1685D4E627E2E84C00DDC127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1685D4E427E2E84C00DDC127 /* ZuperTask */,
+				1685D4FD27E2E85700DDC127 /* ZuperTaskTests */,
+				1685D50827E2E85700DDC127 /* ZuperTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1685D4E327E2E84C00DDC127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1685D4F827E2E85600DDC127 /* LaunchScreen.storyboard in Resources */,
+				1685D4F527E2E85600DDC127 /* Assets.xcassets in Resources */,
+				1685D4F027E2E84C00DDC127 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1685D4FC27E2E85700DDC127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1685D50727E2E85700DDC127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1685D4E127E2E84C00DDC127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DE9BCA27E5CE4300FB54F2 /* CreateViewController.swift in Sources */,
+				16DE9B9727E4FFFD00FB54F2 /* Extension.swift in Sources */,
+				1685D4E927E2E84C00DDC127 /* AppDelegate.swift in Sources */,
+				16DE9BC827E5CE4300FB54F2 /* TagTableViewController.swift in Sources */,
+				1685D55527E435BA00DDC127 /* TodoTableVCell.swift in Sources */,
+				16DE9BC927E5CE4300FB54F2 /* CreateVModel.swift in Sources */,
+				1685D4EB27E2E84C00DDC127 /* SceneDelegate.swift in Sources */,
+				16DE9C0927E709F500FB54F2 /* DynamicValue.swift in Sources */,
+				1685D53427E3A49B00DDC127 /* APIService.swift in Sources */,
+				16DE9BD627E5F2F400FB54F2 /* ListViewModel.swift in Sources */,
+				16DE9BC727E5CE4300FB54F2 /* TodoTableViewController.swift in Sources */,
+				16DE9BC627E5CE4300FB54F2 /* TodoModel.swift in Sources */,
+				16DE9BE627E5FF2400FB54F2 /* ListTableViewDataSource.swift in Sources */,
+				83BECB7327E646C20083017A /* TodoTagTableViewCell.swift in Sources */,
+				1685D4F327E2E84C00DDC127 /* ZuperTask.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1685D4FA27E2E85700DDC127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DE9C0427E7093600FB54F2 /* ViewDataSourceTest.swift in Sources */,
+				1685D50327E2E85700DDC127 /* ZuperTaskTests.swift in Sources */,
+				16DE9BFF27E707F700FB54F2 /* ModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1685D50527E2E85700DDC127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1685D50E27E2E85700DDC127 /* ZuperTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1685D50027E2E85700DDC127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1685D4E427E2E84C00DDC127 /* ZuperTask */;
+			targetProxy = 1685D4FF27E2E85700DDC127 /* PBXContainerItemProxy */;
+		};
+		1685D50B27E2E85700DDC127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1685D4E427E2E84C00DDC127 /* ZuperTask */;
+			targetProxy = 1685D50A27E2E85700DDC127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1685D4EE27E2E84C00DDC127 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1685D4EF27E2E84C00DDC127 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1685D4F627E2E85600DDC127 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1685D4F727E2E85600DDC127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1685D51027E2E85700DDC127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1685D51127E2E85700DDC127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1685D51327E2E85700DDC127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57FJA7VNGA;
+				INFOPLIST_FILE = ZuperTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.com.ZuperTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1685D51427E2E85700DDC127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57FJA7VNGA;
+				INFOPLIST_FILE = ZuperTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.com.ZuperTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1685D51627E2E85700DDC127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57FJA7VNGA;
+				INFOPLIST_FILE = ZuperTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.com.ZuperTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZuperTask.app/ZuperTask";
+			};
+			name = Debug;
+		};
+		1685D51727E2E85700DDC127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57FJA7VNGA;
+				INFOPLIST_FILE = ZuperTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.com.ZuperTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZuperTask.app/ZuperTask";
+			};
+			name = Release;
+		};
+		1685D51927E2E85700DDC127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57FJA7VNGA;
+				INFOPLIST_FILE = ZuperTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.com.ZuperTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZuperTask;
+			};
+			name = Debug;
+		};
+		1685D51A27E2E85700DDC127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57FJA7VNGA;
+				INFOPLIST_FILE = ZuperTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.com.ZuperTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZuperTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1685D4E027E2E84C00DDC127 /* Build configuration list for PBXProject "ZuperTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1685D51027E2E85700DDC127 /* Debug */,
+				1685D51127E2E85700DDC127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1685D51227E2E85700DDC127 /* Build configuration list for PBXNativeTarget "ZuperTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1685D51327E2E85700DDC127 /* Debug */,
+				1685D51427E2E85700DDC127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1685D51527E2E85700DDC127 /* Build configuration list for PBXNativeTarget "ZuperTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1685D51627E2E85700DDC127 /* Debug */,
+				1685D51727E2E85700DDC127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1685D51827E2E85700DDC127 /* Build configuration list for PBXNativeTarget "ZuperTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1685D51927E2E85700DDC127 /* Debug */,
+				1685D51A27E2E85700DDC127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1685D4F127E2E84C00DDC127 /* ZuperTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1685D4F227E2E84C00DDC127 /* ZuperTask.xcdatamodel */,
+			);
+			currentVersion = 1685D4F227E2E84C00DDC127 /* ZuperTask.xcdatamodel */;
+			path = ZuperTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1685D4DD27E2E84C00DDC127 /* Project object */;
+}
